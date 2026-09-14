@@ -18,14 +18,26 @@ This document tracks decompilation progress, target-version coverage, validation
 | Pokémon Sun Japanese baseline | JPN | 9-language capability documented; region/language mapping still under investigation | Retail base / v1.0 | Unverified | Official release metadata recorded; exact build/hash unavailable. |
 | Pokémon Sun update | JPN | Multi-language | Ver.1.1 (2017-01-11) | Unverified | Update history confirmed from Nintendo Japan; build/hash pending. |
 | Pokémon Sun update | JPN | Multi-language | Ver.1.2 (2017-05-17) | Unverified | Update history confirmed from Nintendo Japan; build/hash pending. |
+| Pokémon Sun regional releases | NA / AU / EUR / KOR / HK / TW / unresolved PRC | Region and language tracked independently | Retail base targets | Unverified | First region matrix established; first-party evidence captured for JPN, NA, EUR, KOR metadata, HK and TW. |
 
-See `VERSIONS.md` for the authoritative target inventory and `research/SUN_JPN_BASELINE.md` for the first baseline evidence record.
+See `VERSIONS.md` for the authoritative target inventory.
+
+Current Phase 0 research records:
+
+- `research/SUN_JPN_BASELINE.md`
+- `research/SUN_REGION_MATRIX.md`
+- `research/SUN_UPDATE_MATRIX.md`
 
 ## Progress
 
 - [x] Begin authoritative version/revision inventory with the Japanese baseline
+- [x] Establish the first source-backed regional release matrix
+- [x] Establish the first regional update-history comparison
 - [ ] Complete Japanese product/build identifier inventory
-- [ ] Expand the inventory to all documented regions and language distributions
+- [ ] Complete region-by-region cartridge/eShop product identifiers
+- [ ] Complete update Title ID/content-version inventory by distribution region
+- [ ] Resolve Europe/Australia/Korea update archival gaps
+- [ ] Resolve mainland-China retail/distribution status separately from Simplified-Chinese language support
 - [ ] Document executable and section layout
 - [ ] Map symbols, functions, and major subsystems
 - [ ] Document game-data formats and resource containers
@@ -46,8 +58,8 @@ Official/public documentation can establish release history and research leads w
 ## Next milestones
 
 1. Resolve the Japanese retail/download product identifiers and update identifiers from independent public sources.
-2. Build the Japanese baseline release/update matrix with provenance and explicit unknowns.
-3. Expand Phase 0 to the full region/language inventory and record differences without assuming equivalence.
+2. Finish the Sun region/distribution inventory, including packaging and eShop distinctions.
+3. Resolve update package identities by region rather than assuming globally shared packages.
 4. Begin executable/container mapping only after the relevant target identifiers are sufficiently constrained.
 
 Update this file whenever the project reaches a meaningful milestone or adds a new supported target.
