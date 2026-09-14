@@ -2,6 +2,20 @@
 
 This roadmap defines the recommended order for turning this repository from an initial research scaffold into a reproducible decompilation project.
 
+## Cross-phase requirement — exhaustive public-source survey
+
+Because this project does not have a retail ROM/game image, the public-source survey is a continuous requirement across every phase rather than a one-time preliminary task.
+
+- [ ] Systematically enumerate Japanese first-party material as the baseline corpus.
+- [ ] Systematically enumerate all verified regional and language-specific first-party material.
+- [ ] Survey official manuals, PDFs, press materials, videos, demos, updates, distributions, services, and archived/deprecated pages.
+- [ ] Survey relevant reverse-engineering repositories, source history, forks, issues, pull requests, research forums, save research, format research, and technical documentation.
+- [ ] Survey event/distribution databases, unused/development-leftover documentation, and encyclopedic reference sources with independent cross-checking.
+- [ ] Record sources that were searched but yielded no usable evidence so absence is not mistaken for an unperformed search.
+- [ ] Keep `research/SUN_PUBLIC_SOURCE_SURVEY.md` current as the master source-class census.
+
+Source discovery continues during Phases 1–5; no phase transition implies that public-source collection is complete.
+
 ## Phase 0 — Target definition
 - [ ] Identify authoritative game versions, regions, languages, revisions, and updates.
 - [ ] Record hashes and provenance for each supported target.
