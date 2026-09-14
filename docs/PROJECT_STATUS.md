@@ -15,10 +15,11 @@ This document tracks decompilation progress, target-version coverage, validation
 
 | Target | Region | Language | Revision / update | Verification | Notes |
 | --- | --- | --- | --- | --- | --- |
-| Pokémon Sun Japanese baseline | JPN | 9-language capability documented; region/language mapping still under investigation | Retail base / v1.0 | Unverified | Official release metadata recorded; exact build/hash unavailable. |
-| Pokémon Sun update | JPN | Multi-language | Ver.1.1 (2017-01-11) | Unverified | Update history confirmed from Nintendo Japan; build/hash pending. |
-| Pokémon Sun update | JPN | Multi-language | Ver.1.2 (2017-05-17) | Unverified | Update history confirmed from Nintendo Japan; build/hash pending. |
-| Pokémon Sun regional releases | NA / AU / EUR / KOR / HK / TW / unresolved PRC | Region and language tracked independently | Retail base targets | Unverified | First region matrix established; first-party evidence captured for JPN, NA, EUR, KOR metadata, HK and TW. |
+| Pokémon Sun Japanese baseline | JPN | 9-language capability documented; region/language tracked separately | Retail base / v1.0 | Unverified | Official release metadata recorded. Physical code/JAN and public application identifiers now cross-checked; exact build/hash unavailable. |
+| Pokémon Sun update | JPN | Multi-language | Ver.1.1 (2017-01-11) | Unverified | Official history plus public update Title-ID lead recorded; exact Ver.1.1 content-version/hash pending. |
+| Pokémon Sun update | JPN | Multi-language | Ver.1.2 (2017-05-17) | Unverified | Official history; update Title ID/product code/final content-version cross-checked from public catalogs; exact package hash pending. |
+| Pokémon Sun regional releases | NA / AU / EUR / KOR / HK / TW | Region and language tracked independently | Retail base targets | Unverified | First region matrix established; first-party evidence captured for JPN, NA, EUR, KOR metadata, HK and TW. |
+| Simplified Chinese localization | Language axis | zh-Hans | Available within documented JPN/Traditional-Chinese-region software | Reference only | Current official evidence does not establish a separate mainland-China/iQue Sun build. |
 
 See `VERSIONS.md` for the authoritative target inventory.
 
@@ -27,17 +28,21 @@ Current Phase 0 research records:
 - `research/SUN_JPN_BASELINE.md`
 - `research/SUN_REGION_MATRIX.md`
 - `research/SUN_UPDATE_MATRIX.md`
+- `research/SUN_IDENTIFIERS.md`
 
 ## Progress
 
 - [x] Begin authoritative version/revision inventory with the Japanese baseline
 - [x] Establish the first source-backed regional release matrix
 - [x] Establish the first regional update-history comparison
-- [ ] Complete Japanese product/build identifier inventory
+- [x] Cross-check core Japanese physical identifiers (`CTR-P-BNDJ`, JAN `4902370534009`)
+- [x] Cross-check public base/update Title-ID leads and final Ver.1.2 catalog metadata
+- [x] Separate Simplified-Chinese language support from an unproven mainland-China retail build
+- [ ] Locate first-party/preserved manufacturer evidence for all Japanese physical/eShop identifiers where possible
+- [ ] Recover exact Ver.1.1 content-version metadata
 - [ ] Complete region-by-region cartridge/eShop product identifiers
-- [ ] Complete update Title ID/content-version inventory by distribution region
 - [ ] Resolve Europe/Australia/Korea update archival gaps
-- [ ] Resolve mainland-China retail/distribution status separately from Simplified-Chinese language support
+- [ ] Determine exact HK/TW Japanese-system versus Traditional-Chinese-system package identifiers
 - [ ] Document executable and section layout
 - [ ] Map symbols, functions, and major subsystems
 - [ ] Document game-data formats and resource containers
@@ -57,9 +62,9 @@ Official/public documentation can establish release history and research leads w
 
 ## Next milestones
 
-1. Resolve the Japanese retail/download product identifiers and update identifiers from independent public sources.
-2. Finish the Sun region/distribution inventory, including packaging and eShop distinctions.
-3. Resolve update package identities by region rather than assuming globally shared packages.
-4. Begin executable/container mapping only after the relevant target identifiers are sufficiently constrained.
+1. Finish Sun Phase 0 identity work: package/eShop/update metadata by distribution target.
+2. Resolve remaining first-party archive gaps for Australia, Korea and regional updates.
+3. Determine whether public evidence can distinguish regional executable/RomFS builds from shared content plus regional wrappers.
+4. Begin Phase 1 executable/container mapping once target identities are sufficiently constrained.
 
 Update this file whenever the project reaches a meaningful milestone or adds a new supported target.
