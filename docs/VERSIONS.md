@@ -14,8 +14,9 @@ The project uses the Japanese release as the investigation baseline. Other regio
 | Planned | North America | Multi-language capability; package-language presentation TBD | Retail base / v1.0 | Nintendo 3DS; exact build identity TBD | TBD | Official Pokémon Company North America launch date: 2016-11-18. Public product-code lead: `CTR-BNDE-USA`. |
 | Planned | Australia | Multi-language capability; package-language presentation TBD | Retail base / v1.0 | Nintendo 3DS; exact build identity TBD | TBD | 2016-11-18 release supported by public cross-checks; primary Nintendo AU archival source still required. Public lead: `CTR-BNDP-AUS`. |
 | Planned | Europe | Multi-language capability; package-language presentation varies by listing | Retail base / v1.0 | Nintendo 3DS European distribution; exact build identity TBD | TBD | Official Nintendo Europe release date: 2016-11-23. Public lead: `CTR-BNDP-EUR`. |
-| Planned | South Korea | Korean plus common nine-language game capability under investigation | Retail base / v1.0 | Nintendo 3DS; exact build identity TBD | TBD | Contemporary reporting gives 2016-11-18; first-party archival confirmation still required. Public lead: `CTR-BNDK-KOR`. |
-| Planned | Hong Kong / Taiwan distribution lead | Traditional Chinese plus common nine-language game capability under investigation | Retail base / v1.0 | Nintendo 3DS; distribution identity TBD | TBD | Public lead: `CTR-BNDW-CHT`; Hong Kong and Taiwan must remain separately traceable until first-party evidence resolves distribution details. |
+| Planned | South Korea | Nine-language game capability; Korean distribution metadata tracked separately | Retail base / v1.0 | Nintendo 3DS; exact build identity TBD | TBD | Pokémon Korea confirms Nov. 2016 and Korean Nintendo as distributor; exact 2016-11-18 date supported by contemporary Korean-Nintendo-sourced reporting. Public lead: `CTR-BNDK-KOR`. |
+| Planned | Hong Kong | Both Traditional-Chinese-system and Japanese-system software offerings documented; each supports all 9 selectable languages | Retail base / v1.0 | Nintendo 3DS; exact build identity TBD | TBD | Nintendo (Hong Kong) official launch date: 2016-11-18. Traditional-Chinese distribution lead: `CTR-BNDW-CHT`. |
+| Planned | Taiwan | Both Traditional-Chinese-system and Japanese-system software offerings documented; each supports all 9 selectable languages | Retail base / v1.0 | Nintendo 3DS; exact build identity TBD | TBD | Nintendo (Hong Kong) Taiwan material confirms 2016-11-18 launch. Exact package/build identity still unresolved. |
 | Planned | Mainland China | Simplified Chinese language capability is documented, but retail/distribution target is unresolved | TBD | TBD | TBD | Do not infer a distinct mainland-China retail build solely from language support. |
 
 ## Current public identifiers under investigation
@@ -41,7 +42,7 @@ Official Nintendo material states that Pokémon Sun and Pokémon Moon can be pla
 - Traditional Chinese
 - Simplified Chinese
 
-Region packaging and per-distribution language presentation must still be investigated separately; region and language are not assumed to be equivalent.
+Region packaging and per-distribution language presentation must still be investigated separately; region and language are not assumed to be equivalent. Nintendo (Hong Kong) explicitly documents both Traditional-Chinese-system and Japanese-system software offerings for the Hong Kong/Taiwan markets while stating that either offering can select all nine game languages.
 
 ## Primary sources for the current Phase 0 inventory
 
@@ -51,12 +52,16 @@ Region packaging and per-distribution language presentation must still be invest
 - The Pokémon Company corporate release — documents Sun/Moon as supporting nine selectable languages: https://corporate.pokemon.co.jp/PostImages/850f9ea9cdecd73192ff941ced42d43bffcda492.pdf
 - The Pokémon Company North America press site — North American launch on 2016-11-18: https://press.pokemon.com/en/releases/NEW-POKEMON-REVEALED-FOR-POKEMON-SUN-AND-POKEMON-MOON-84523
 - Nintendo Europe / Nintendo Netherlands — European launch on 2016-11-23: https://www.nintendo.com/nl-nl/Nieuws/2016/november/Welkom-in-Alola-Pokemon-Sun-en-Pokemon-Moon-komen-vandaag-uit-in-Europa-exclusief-voor-de-Nintendo-3DS-1158904.html
+- Pokémon Korea — official Korean game page, November 2016 release month and Korean Nintendo distribution: https://pokemonkorea.co.kr/game/view/5246?cate2=7&sword=
+- Nintendo (Hong Kong) — official Hong Kong/Taiwan launch and language/system-target information: https://www.nintendo.com/hk/pressrelease/3ds_20160901_sun_moon_release.html
+- Nintendo (Hong Kong), Taiwan site — official 2016-11-18 Taiwan-market release confirmation: https://www.nintendo.com/tw/pressrelease/3ds_20161118_sun_moon_release.html
 
 ## Secondary/public technical leads
 
 - 3DSDB public catalog entry for Pokémon Sun (`0004000000164800`, `CTR-BNDA`): https://3dsdb.com/
 - GameFAQs Pokémon Sun release-data catalog for regional product-code leads: https://gamefaqs.gamespot.com/3ds/187276-pokemon-sun/data
 - Bulbapedia Pokémon Sun/Moon release matrix for regional cross-checking: https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Sun_and_Moon
+- Contemporary Korean reporting citing Korean Nintendo for the exact Korean launch date: https://www.inven.co.kr/webzine/news/?news=164522
 
 These technical leads are recorded for investigation and must not be treated as equivalent to a project-verified retail build hash.
 
