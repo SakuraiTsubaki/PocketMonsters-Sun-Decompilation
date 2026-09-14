@@ -17,7 +17,7 @@ The project uses the Japanese release as the investigation baseline. Other regio
 | Planned | South Korea | Nine-language game capability; Korean distribution metadata tracked separately | Retail base / v1.0 | Nintendo 3DS; application Title ID lead `0004000000164800` | TBD | Pokémon Korea confirms Nov. 2016 and Korean Nintendo as distributor; exact 2016-11-18 date supported by contemporary Korean-Nintendo-sourced reporting. Public physical lead: `CTR-BNDK-KOR`. |
 | Planned | Hong Kong | Both Traditional-Chinese-system and Japanese-system software offerings documented; each supports all 9 selectable languages | Retail base / v1.0 | Nintendo 3DS; application Title ID lead `0004000000164800` | TBD | Nintendo (Hong Kong) official launch date: 2016-11-18. Traditional-Chinese distribution physical lead: `CTR-BNDW-CHT`. |
 | Planned | Taiwan | Both Traditional-Chinese-system and Japanese-system software offerings documented; each supports all 9 selectable languages | Retail base / v1.0 | Nintendo 3DS; application Title ID lead `0004000000164800` | TBD | Nintendo (Hong Kong) Taiwan material confirms 2016-11-18 launch. Exact package/build identity still unresolved. |
-| Planned | Mainland China | Simplified Chinese language capability is documented, but retail/distribution target is unresolved | TBD | TBD | TBD | Do not infer a distinct mainland-China retail build solely from language support. |
+| Reference only | Mainland China / CHN-specific target | Simplified Chinese is officially selectable | No distinct CHN retail/update target identified | No distinct CHN/iQue build established by current first-party evidence | N/A | Official Simplified-Chinese material tells users of JPN- and Traditional-Chinese-region 3DS systems to use the corresponding regional software. Keep Simplified Chinese as a language axis, not a presumed CHN build. |
 
 ## Current public identifiers under investigation
 
@@ -50,6 +50,8 @@ Official Nintendo material states that Pokémon Sun and Pokémon Moon can be pla
 
 Region packaging and per-distribution language presentation must still be investigated separately; region and language are not assumed to be equivalent. Nintendo (Hong Kong) explicitly documents both Traditional-Chinese-system and Japanese-system software offerings for the Hong Kong/Taiwan markets while stating that either offering can select all nine game languages.
 
+The official Simplified-Chinese Sun/Moon website likewise describes Japanese-region and Traditional-Chinese-region software as the applicable 3DS products and says that either can select Simplified Chinese. A separate mainland-China/iQue Sun target is therefore **not inferred** from the existence of Simplified Chinese localization.
+
 ## Primary sources for the current Phase 0 inventory
 
 - The Pokémon Company, Japanese Pokémon Sun/Moon official site — release date, platform and product information: https://www.pokemon.co.jp/ex/sun_moon/
@@ -60,7 +62,9 @@ Region packaging and per-distribution language presentation must still be invest
 - Nintendo Europe / Nintendo Netherlands — European launch on 2016-11-23: https://www.nintendo.com/nl-nl/Nieuws/2016/november/Welkom-in-Alola-Pokemon-Sun-en-Pokemon-Moon-komen-vandaag-uit-in-Europa-exclusief-voor-de-Nintendo-3DS-1158904.html
 - Pokémon Korea — official Korean game page, November 2016 release month and Korean Nintendo distribution: https://pokemonkorea.co.kr/game/view/5246?cate2=7&sword=
 - Nintendo (Hong Kong) — official Hong Kong/Taiwan launch and language/system-target information: https://www.nintendo.com/hk/pressrelease/3ds_20160901_sun_moon_release.html
+- Nintendo (Hong Kong), Simplified Chinese release material — JPN/Traditional-Chinese-system software and 9-language support: https://www.nintendo.com/hk/pressrelease/3ds_20160920_sun_moon_release_sc.html
 - Nintendo (Hong Kong), Taiwan site — official 2016-11-18 Taiwan-market release confirmation: https://www.nintendo.com/tw/pressrelease/3ds_20161118_sun_moon_release.html
+- Official Simplified-Chinese Sun/Moon site — product information and JPN/Traditional-Chinese-region hardware/software note: https://www.pokemon-sunmoon-cn.com/sc/
 
 ## Secondary/public technical and packaging evidence
 
@@ -69,6 +73,7 @@ Region packaging and per-distribution language presentation must still be invest
 - 3DSDB Korean catalog source: https://github.com/hax0kartik/3dsdb/blob/master/jsons/list_KR.json
 - GameFAQs Pokémon Sun release-data catalog for regional package-code leads: https://gamefaqs.gamespot.com/3ds/187276-pokemon-sun/data
 - Bulbapedia Pokémon Sun/Moon release matrix for regional cross-checking: https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Sun_and_Moon
+- Bulbapedia mainland-China history, used to flag a conflict with the general release matrix: https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_in_mainland_China
 - Contemporary Korean reporting citing Korean Nintendo for the exact Korean launch date: https://www.inven.co.kr/webzine/news/?news=164522
 - Japanese physical-product cross-checks: GEO Online, Rakuten Books, Suruga-ya, and Yamada Webcom (see `research/SUN_IDENTIFIERS.md`).
 
