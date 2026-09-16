@@ -32,11 +32,12 @@ jobs:
           mkdir -p "$B/bin" "$B/emulators" "$B/ghidra" "$B/jdk" "$S" "$D"
 
           git clone --depth=1 --recursive https://github.com/3DSGuy/Project_CTR.git "$S/Project_CTR"
-          make -C "$S/Project_CTR" -j"$(nproc)"
-          CTR="$(find "$S/Project_CTR" -type f -name ctrtool -perm -111 | head -n1)"
-          MAKER="$(find "$S/Project_CTR" -type f -name makerom -perm -111 | head -n1)"
-          install -m755 "$CTR" "$B/bin/ctrtool"
-          install -m755 "$MAKER" "$B/bin/makerom"
+          make -C "$S/Project_CTR/ctrtool" deps
+          make -C "$S/Project_CTR/ctrtool" program -j"$(nproc)"
+          make -C "$S/Project_CTR/makerom" deps
+          make -C "$S/Project_CTR/makerom" program -j"$(nproc)"
+          install -m755 "$S/Project_CTR/ctrtool/bin/ctrtool" "$B/bin/ctrtool"
+          install -m755 "$S/Project_CTR/makerom/bin/makerom" "$B/bin/makerom"
 
           git clone --depth=1 --recursive https://github.com/dnasdw/3dstool.git "$S/3dstool"
           cmake -S "$S/3dstool" -B "$S/3dstool/build" -DCMAKE_BUILD_TYPE=Release -DUSE_DEP=ON
